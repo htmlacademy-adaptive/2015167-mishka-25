@@ -3,13 +3,7 @@
 }
 
 .logo__icon {
-  height: 79px;
-  fill: $secondary;
-
-  &--tablet,
-  &--desktop {
-    display: none;
-  }
+  padding-top: 22px;
 }
 
 .logo:hover .logo__icon {
@@ -20,33 +14,10 @@
   opacity: 0.3;
 }
 
-@media (min-width: $tablet-width) {
-  .logo__icon {
-    height: 89px;
-
-    &--desktop,
-    &--mobile {
-      display: none;
-    }
-
-    &--tablet {
-      display: block;
-    }
-  }
-}
-
 @media (min-width: $desktop-width) {
   .logo__icon {
     order: 2;
     margin-right: 52px;
-
-    &--mobile,
-    &--tablet {
-      display: none;
-    }
-
-    &--desktop {
-      display: block;
-    }
+    padding-top: 9px;
   }
 }

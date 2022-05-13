@@ -10,7 +10,6 @@
 @import "blocks/user-list.scss";
 @import "blocks/extra-list.scss";
 @import "blocks/header-text.scss";
-@import "blocks/main-container.scss";
 @import "blocks/main.scss";
 @import "blocks/main-section.scss";
 @import "blocks/main-list.scss";
@@ -42,14 +41,12 @@
 // Стили каталога
 @import "blocks/main-catalog-section.scss";
 @import "blocks/catalog-section.scss";
-@import "blocks/cards.scss";
 @import "blocks/card.scss";
 @import "blocks/video-section.scss";
 @import "blocks/video.scss";
 
 // Стили формы
 @import "blocks/main-inner.scss";
-@import "blocks/form-section.scss";
 @import "blocks/form.scss";
 @import "blocks/form-inner.scss";
 @import "blocks/radio.scss";
