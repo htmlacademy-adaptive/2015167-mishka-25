@@ -18,6 +18,17 @@
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 20px;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    left: 61px;
+    right: 2px;
+    top: 7px;
+    background-color: $tertiarydenaty;
+  }
 }
 
 .option__textarea {
@@ -41,6 +52,10 @@
     outline: 2px solid $primary;
     border: 2px solid $primary;
     border-radius: 5px;
+  }
+
+  &::placeholder {
+    opacity: 0.3;
   }
 }
 

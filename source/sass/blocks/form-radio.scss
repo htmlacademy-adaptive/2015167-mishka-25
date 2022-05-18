@@ -39,18 +39,57 @@
   width: 80px;
   height: 50px;
   border: 2px solid $nonary;
+  cursor: pointer;
 }
 
 .form-radio__input[type="radio"]:checked + .form-radio__mark {
   border: 2px solid $primary;
 }
 
+.form-radio__legend {
+  display: inline-block;
+  font-size: 15px;
+  line-height: 1.1;
+  margin-bottom: 28px;
+  font-weight: 400;
+}
+
 .form-radio__title {
   display: inline-block;
   font-size: 15px;
   line-height: 1.1;
-  font-weight: 700;
   margin-bottom: 22px;
   padding-top: 18px;
   padding-bottom: 18px;
+  font-weight: 400;
+}
+
+@media (min-width: $tablet-width) {
+  .form-radio__item {
+    position: relative;
+    width: 112px;
+    height: 52px;
+  }
+
+  .form-radio__legend {
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 19px;
+  }
+
+  .form-radio__input {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 112px;
+    height: 52px;
+  }
+
+  .form-radio__mark {
+    display: block;
+    width: 108px;
+    height: 48px;
+    border: 2px solid $nonary;
+    cursor: pointer;
+  }
 }

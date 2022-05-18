@@ -16,6 +16,17 @@
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 5px;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    left: 80px;
+    right: 2px;
+    top: 7px;
+    background-color: $tertiarydenaty;
+  }
 }
 
 .mail__label {
@@ -65,6 +76,10 @@
     border-bottom: 2px solid $primary;
     border-radius: 5px;
   }
+
+  &::placeholder {
+    opacity: 0.3;
+  }
 }
 
 @media (min-width: $tablet-width) {
@@ -76,7 +91,7 @@
 
   .mail__input {
     font-size: 19px;
-    background-color: $septenary;
+    background-color: $senary;
     padding-left: 16px;
     letter-spacing: 0;
     margin: 0;

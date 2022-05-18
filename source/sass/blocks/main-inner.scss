@@ -1,20 +1,24 @@
 .main-inner__title {
   font-size: 27px;
   line-height: 1.2;
-  background-color: $septenary;
+  background: $senary;
   padding-top: 73px;
   margin: 0;
   padding-bottom: 72px;
 }
 
 @media (min-width: $tablet-width) {
+  .main-inner {
+    position: relative;
+  }
+
   .main-inner::before {
     content: "";
     background-image: url("../img/decor-icon/zigzag-fill.svg");
     position: absolute;
     height: 24px;
     width: 100%;
-    bottom: 80px;
+    bottom: -12px;
     left: 0;
   }
 
@@ -29,7 +33,7 @@
     content: "";
     background-image: url("../img/decor-icon/zigzag-fill-desktop.svg");
     height: 34px;
-    bottom: -10px;
+    bottom: -14px;
   }
 
   .main-inner__title {

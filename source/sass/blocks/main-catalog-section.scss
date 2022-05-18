@@ -1,5 +1,6 @@
 .main-catalog-section {
-  background: $septenary;
+  background: $senary;
+  position: relative;
 }
 
 .main-catalog-section__title {
@@ -17,7 +18,7 @@
     position: absolute;
     height: 24px;
     width: 100%;
-    bottom: 22px;
+    bottom: -10px;
     left: 0;
   }
 
@@ -34,7 +35,7 @@
     content: "";
     background-image: url("../img/decor-icon/zigzag-fill-desktop.svg");
     height: 34px;
-    bottom: -10px;
+    bottom: -15px;
   }
 
   .main-catalog-section__title {

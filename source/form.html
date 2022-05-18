@@ -29,9 +29,9 @@
             media="(min-width: 768px)" type="image/webp">
           <source srcset="img/logo-tablet.png 1x, img/logo-tablet@2x.png 2x" width="114" height="46"
             media="(min-width: 768px)" type="image/png">
-          <source srcset="img/logo-mobile.webp 1x, img/logo-mobile@2x.webp 2x" type="image/webp" loading="lazy">
+          <source srcset="img/logo-mobile.webp 1x, img/logo-mobile@2x.webp 2x" type="image/webp">
           <img class="logo__icon" width="86" height="35" src="img/logo-mobile.png" srcset="img/logo-mobile@2x.png"
-            alt="Интернет-магазин Мишка.">
+            alt="Интернет-магазин Мишка." loading="lazy">
         </picture>
       </a>
       <ul class="main-nav__list main-nav__site site-list">
@@ -110,7 +110,7 @@
               </li>
             </ul>
           </fieldset>
-          <div class="form-inner__wrapper--checkbox">
+          <div class="form-inner__wrapper-checkbox">
             <fieldset class="form-inner__checkbox checkbox">
               <span class="checkbox__headline">Цвет</span>
               <ul class="checkbox__list">
@@ -182,7 +182,7 @@
               </li>
             </ul>
           </fieldset>
-          <div class="form-inner__wrapper--number-mail">
+          <div class="form-inner__wrapper-contacts">
             <fieldset class="form-inner__contacts number">
               <span class="number__title">Тел</span>
               <label class="number__label">
@@ -221,7 +221,7 @@
                 name="textarea"></textarea>
             </label>
           </fieldset>
-          <div class="form-inner__wrapper--text-button">
+          <div class="form-inner__wrapper-submit">
             <span class="form-inner__text">*Поля обязательны для заполнения</span>
             <button class="form-inner__button" type="submit">Отправить заказ</button>
           </div>
@@ -290,6 +290,40 @@
       </div>
     </div>
   </footer>
+  <div class="modal-container modal-container--closed">
+    <div class="modal">
+      <h2 class="modal__title">Добавить в корзину</h2>
+      <form class="modal__form form-content" action="https://echo.htmlacademy.ru/" method="post">
+        <fieldset class="form-content__radio form-radio">
+          <legend class="form-radio__legend">Выберите размер:</legend>
+          <ul class="form-radio__list">
+            <li class="form-radio__item">
+              <label class="form-radio__label">
+                <input class="form-radio__input visually-hidden" type="radio" name="type" value="s" checked>
+                <span class="form-radio__mark"></span>
+                <span class="form-radio__title">S</span>
+              </label>
+            </li>
+            <li class="form-radio__item">
+              <label class="form-radio__label">
+                <input class="form-radio__input visually-hidden" type="radio" name="type" value="m">
+                <span class="form-radio__mark"></span>
+                <span class="form-radio__title">M</span>
+              </label>
+            </li>
+            <li class="form-radio__item">
+              <label class="form-radio__label">
+                <input class="form-radio__input visually-hidden" type="radio" name="type" value="l">
+                <span class="form-radio__mark"></span>
+                <span class="form-radio__title">L</span>
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+        <button class="form-content__button" type="submit">Добавить</button>
+      </form>
+    </div>
+  </div>
   <script src="js/scripts.js"></script>
 </body>
 

@@ -1,5 +1,6 @@
 .main-header {
-  box-shadow: 0 1px 1px 1px $octonary;
+  box-shadow: 0 1px 0 0 $octonary;
+  z-index: 1;
   background-color: $tertiary;
 }
 
@@ -63,6 +64,10 @@
 
 .main-header__wrapper--nojs .main-nav__site {
   display: flex;
+}
+
+.main-header__wrapper--nojs .main-header__toggle {
+  display: none;
 }
 
 .main-header__wrapper--nojs .main-nav__user {

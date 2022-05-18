@@ -54,12 +54,12 @@
     font-size: 17px;
   }
 
-  .form-inner__wrapper--checkbox {
-    background-color: $septenary;
+  .form-inner__wrapper-checkbox {
+    background-color: $senary;
   }
 
-  .form-inner__wrapper--number-mail {
-    background-color: $septenary;
+  .form-inner__wrapper-contacts {
+    background-color: $senary;
   }
 }
 
@@ -73,7 +73,7 @@
     right: 225px;
   }
 
-  .form-inner__wrapper--text-button {
+  .form-inner__wrapper-submit {
     position: relative;
     max-width: 1150px;
     margin: 0 auto;

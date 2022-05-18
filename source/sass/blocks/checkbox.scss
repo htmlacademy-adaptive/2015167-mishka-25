@@ -14,6 +14,17 @@
   font-weight: 700;
   margin-bottom: 30px;
   padding-left: 29px;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    left: 90px;
+    right: 30px;
+    top: 5px;
+    background-color: $tertiarydenaty;
+  }
 }
 
 .checkbox__title {

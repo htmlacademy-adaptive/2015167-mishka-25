@@ -8,4 +8,12 @@
   background-color: #63d1bb;
   color: $tertiary;
   text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+@media (min-width: $tablet-width) {
+  .form-content__button {
+    width: 350px;
+  }
 }
