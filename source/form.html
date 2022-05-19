@@ -39,7 +39,7 @@
           <a class="site-list__link" href="catalog.html">Каталог товаров</a>
         </li>
         <li class="site-list__item">
-          <a class="site-list__link" href="#">Вязание на заказ</a>
+          <a class="site-list__link js-open-modal" href="#">Вязание на заказ</a>
         </li>
       </ul>
       <ul class="main-nav__list main-nav__user user-list ">
@@ -290,40 +290,6 @@
       </div>
     </div>
   </footer>
-  <div class="modal-container modal-container--closed">
-    <div class="modal">
-      <h2 class="modal__title">Добавить в корзину</h2>
-      <form class="modal__form form-content" action="https://echo.htmlacademy.ru/" method="post">
-        <fieldset class="form-content__radio form-radio">
-          <legend class="form-radio__legend">Выберите размер:</legend>
-          <ul class="form-radio__list">
-            <li class="form-radio__item">
-              <label class="form-radio__label">
-                <input class="form-radio__input visually-hidden" type="radio" name="type" value="s" checked>
-                <span class="form-radio__mark"></span>
-                <span class="form-radio__title">S</span>
-              </label>
-            </li>
-            <li class="form-radio__item">
-              <label class="form-radio__label">
-                <input class="form-radio__input visually-hidden" type="radio" name="type" value="m">
-                <span class="form-radio__mark"></span>
-                <span class="form-radio__title">M</span>
-              </label>
-            </li>
-            <li class="form-radio__item">
-              <label class="form-radio__label">
-                <input class="form-radio__input visually-hidden" type="radio" name="type" value="l">
-                <span class="form-radio__mark"></span>
-                <span class="form-radio__title">L</span>
-              </label>
-            </li>
-          </ul>
-        </fieldset>
-        <button class="form-content__button" type="submit">Добавить</button>
-      </form>
-    </div>
-  </div>
   <script src="js/scripts.js"></script>
 </body>
 
