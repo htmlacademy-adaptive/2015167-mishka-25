@@ -166,7 +166,7 @@
     max-width: 1052px;
     display: grid;
     grid-template-columns: 682px 367px;
-    grid-template-rows: 168px 174px 113px;
+    grid-template-rows: min-content min-content 1fr;
     padding-bottom: 0;
   }
 
@@ -180,6 +180,7 @@
     grid-row-start: 1;
     grid-row-end: 4;
     margin: 0;
+    max-height: 455px;
   }
 
   .video__title {
@@ -200,6 +201,7 @@
     width: 252px;
     padding-top: 0;
     padding-left: 79px;
+    margin-bottom: 50px;
   }
 
   .video__link {

@@ -64,14 +64,16 @@
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: 265px 300px;
-    grid-template-rows: 155px 155px 155px;
+    grid-template-rows: min-content min-content min-content;
     column-gap: 70px;
     font-size: 20px;
+    min-height: 465px;
   }
 
   .about-list__item {
     padding-top: 97px;
     position: relative;
+    margin-bottom: 11px;
   }
 
   .about-list__item::before {
@@ -82,13 +84,13 @@
 @media (min-width: $desktop-width) {
   .about-list {
     grid-template-columns: 265px 325px;
-    grid-template-rows: 155px 155px 155px;
     column-gap: 85px;
   }
 
   .about-list__item {
     padding-top: 94px;
     position: relative;
+    margin-bottom: 14px;
   }
 
   .about-list__item::before {

@@ -26,8 +26,8 @@ openModal.forEach((item) => {
 })});
 
 
-modalWindow.addEventListener("click", function(e) {
-  if ( !modal.contains(e.target) && !modalWindow.classList.contains("modal-container--closed") ) {
-    modalWindow.classList.add("modal-container--closed");
+modalWindow.addEventListener('click', function(e) {
+  if ( !modal.contains(e.target) && !modalWindow.classList.contains('modal-container--closed') ) {
+    modalWindow.classList.add('modal-container--closed');
   }
 });
